@@ -1,40 +1,25 @@
 import React from 'react';
-import '../Pages/styles/Home.css';
+import '../Pages/styles/home.css'
 
-import { Link } from 'react-router-dom'; // Importa Link para navegación
-
-const Home = () => {
+const ElComite = () => {
   return (
-    <div className="home-container">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-      <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet"></link>
-      <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet"></link>
+    <div className="comite-container">
+      <header className="comite-header">
+        <h1>El Comit<span>é</span></h1>
+      </header>
       
-      <div className="header">
-        <div className="logo">El Comit<span>é</span></div>
-      </div>
+      <main className="comite-main">
+        <div className="comite-buttons">
+          <button className="comite-button register">Registrarse como Voluntario</button>
+          <button className="comite-button login">Iniciar Sesión</button>
+        </div>
+      </main>
       
-      <div className="main-content">
-        <h1 className="welcome-title">Bienvenido a Go BaBy <span>Go!</span></h1>
-        <p className="mission-text">
-          Somos una organización benéfica dedicada a mejorar la vida de los niños discapacitados. 
-          Participa y contribuye a nuestra causa. ¡Apoya a nuestros niños!
-        </p>
-        
-        <Link to="/encuesta" className="btn">Iniciar Encuesta</Link>
-        <Link to="/resultados" className="btn">Ver resultados</Link>
-      </div>
-      
-      <div className="admin-section">
-        <h2 className="admin-title">¿Eres administrador?</h2>
-        <p className="admin-text">
-          Si eres administrador de éste evento Go BaBy Go, en este apartado podrás ver los resultados de los 
-          voluntarios, modificar y planear encuesta.
-        </p>
-        <Link to="/iniciar-sesion" className="btn">Acceder como Administrador</Link>
-      </div>
+      <footer className="comite-footer">
+        <p>© Todos los derechos reservados</p>
+      </footer>
     </div>
   );
 };
 
-export default Home;
+export default ElComite;
