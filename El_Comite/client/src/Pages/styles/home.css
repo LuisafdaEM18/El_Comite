@@ -8,7 +8,6 @@
 }
 
 
-
 .comite-container {
     display: flex;
     flex-direction: column;
@@ -21,11 +20,11 @@
   /* Estilos del encabezado */
   .comite-header {
     text-align: center;
-    padding: 2rem 0;
+    padding: 6rem 0;
   }
   
   .comite-header h1 {
-    font-size: 2.5rem;
+    font-size: 6.0rem;
     margin: 0;
     color: #1E3766;
   }
@@ -62,11 +61,17 @@
   .comite-button.register {
     background-color:#1E3766;
     color: white;
+    font-family: 'Recoleta', serif;
+    letter-spacing: 1px;
   }
   
   .comite-button.login {
     background-color: #1E3766;
     color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+
   }
   
   .comite-button:hover {

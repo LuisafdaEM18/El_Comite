@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Pages/styles/home.css'
+import '../Pages/styles/home.css';
+import { Link, useNavigate } from 'react-router-dom';
 
 const ElComite = () => {
   return (
@@ -11,7 +12,7 @@ const ElComite = () => {
       <main className="comite-main">
         <div className="comite-buttons">
           <button className="comite-button register">Registrarse como Voluntario</button>
-          <button className="comite-button login">Iniciar Sesión</button>
+          <Link to="/iniciar-sesion" className="comite-button login">Iniciar Sesión</Link>
         </div>
       </main>
       
