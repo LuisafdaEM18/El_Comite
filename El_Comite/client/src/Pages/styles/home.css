@@ -60,17 +60,22 @@
   
   .comite-button.register {
     background-color:#1E3766;
-    color: white;
+    color: #1E3766;
     font-family: 'Recoleta', serif;
     letter-spacing: 1px;
+    border: 2px solid #1E3766;
+    background-color: transparent
+
   }
   
   .comite-button.login {
-    background-color: #1E3766;
-    color: white;
+    background-color: #ffffff;
+    color: #1E3766;
     text-decoration: none;
     letter-spacing: 1px;
     text-align: center;
+    border: 2px solid #1E3766;
+    background-color: transparent
 
   }
   
